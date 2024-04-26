@@ -4,6 +4,11 @@ server:
 spring:
   application:
     name: user-service
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
 
   datasource:
     url: jdbc:mysql://localhost:3306/ecommerce?serverTimezone=UTC&useUniCode=yes&characterEncoding=UTF-8
@@ -31,7 +36,7 @@ management:
   endpoints:
     web:
       exposure:
-        include: refresh, health, beans
+        include: refresh, health, beans, busrefresh
 
 #token:
 #  expiration_time: 86400000 # 60*60*24*1000
