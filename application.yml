@@ -1,6 +1,6 @@
 token:
   expiration_time: 86400000
-  secret: my_token_defaultslfjslfjslfslkfsfsdvcxfdsfwefwefwljflsknslkjfois
+  secret: my_token_default_#1slfjslfjslfslkfsfsdvcxfdsfwefwefwljflsknslkjfois
 
 gateway:
   ip: 192.168.0.8
